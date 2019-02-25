@@ -11,13 +11,16 @@ Provides a basic JDF template for the OMSCS program.
 To install the XeLaTeX, run the following commands:
 ```
 sudo apt-get install texlive-xetex
+sudo apt-get install latexmk
 ```
 
 ### MacOS
 Install XeLaTeX [here](http://www.tug.org/mactex/index.html).
 
 ### Windows
-I currently don't have a method of testing this on Windows.
+I currently don't have a method of testing this on Windows but I can't
+recommend [Overleaf](https://www.overleaf.com/) enough. I personally use this
+even on my Mac.
 
 ## Installation and Usage
 Within a terminal:
@@ -34,6 +37,10 @@ The following options are available via the Makefile:
 clean - remove all intermediate and final builds.
 mostlyclean - remove intermediate builds.
 ```
+
+## Citations
+Included is the apacite table on the acceptable .bib headings. Use this to
+reference how something should be cited. When in doubt use MISC!
 
 ## Credits
 This is a fork from Mr. Harper and his collaborators.
